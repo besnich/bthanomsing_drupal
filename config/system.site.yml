@@ -1,0 +1,14 @@
+uuid: 6eaadc3a-9e7c-4c57-b6d5-62ce2b5422da
+name: 'My Drupal'
+mail: bthanomsing@northcrossgroup.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
