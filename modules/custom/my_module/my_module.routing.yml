@@ -1,7 +1,0 @@
-my_module:
-  path: '/my_module'
-  defaults: 
-    _controller: '\Drupal\my_module\Controller\MyModuleController::test'
-    _title : 'My Module'
-  requirements:
-   _permission: 'access content'
