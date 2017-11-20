@@ -768,7 +768,6 @@ $settings['file_scan_ignore_directories'] = [
  * larger number of entities to be processed in a single batch run.
  */
 $settings['entity_update_batch_size'] = 50;
-
 /**
  * Load local development override configuration, if available.
  *
@@ -780,18 +779,7 @@ $settings['entity_update_batch_size'] = 50;
  * Keep this code block at the end of this file to take full effect.
  */
 #
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
-$databases['default']['default'] = array (
-  'database' => 'drupal_test',
-  'username' => 'besnich',
-  'password' => '99Of8jU=',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+   include $app_root . '/' . $site_path . '/settings.local.php';
+}
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_56fW0eaAfSP5deL6VoqjQ291Nk_3Go6GXPkYib97klgABHtGulr7lvNmhMUbfEdkqiPCVQkR7g/sync';
