@@ -249,7 +249,9 @@ $databases = array();
  *   );
  * @endcode
  */
-$config_directories = array();
+$config_directories = array(
+CONFIG_SYNC_DIRECTORY => dirname(DRUPAL_ROOT) . '/config',
+);
 
 /**
  * Settings:
