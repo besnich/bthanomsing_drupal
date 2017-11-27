@@ -5,6 +5,7 @@
 sites/example.sites.php
 docroot/sites/default/.settings.php.swp
 docroot/sites/default/settings.local.php
+docroot/sites/default/settings.php
 
 # Ignore paths that contain generated content.
 files/
