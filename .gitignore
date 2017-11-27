@@ -8,6 +8,9 @@ docroot/sites/default/settings.local.php
 docroot/sites/default/settings.php
 docroot/sites/newsite/settings.local.php
 docroot/sites/newsite/settings.php
+docroot/sites/site3/settings.local.php
+docroot/sites/site3/settings.php
+docroot/sites/site3/.settings.php.swp
 
 # Ignore paths that contain generated content.
 files/
