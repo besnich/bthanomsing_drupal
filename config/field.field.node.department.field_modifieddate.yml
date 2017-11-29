@@ -9,8 +9,8 @@ id: node.department.field_modifieddate
 field_name: field_modifieddate
 entity_type: node
 bundle: department
-label: ModifiedDate
-description: ''
+label: Modified Date
+description: 'The date that this department has been modified'
 required: false
 translatable: false
 default_value: {  }
