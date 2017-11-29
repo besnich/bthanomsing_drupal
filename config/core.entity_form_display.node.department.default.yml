@@ -5,8 +5,6 @@ dependencies:
   config:
     - field.field.node.department.body
     - field.field.node.department.field_deptid
-    - field.field.node.department.field_deptname
-    - field.field.node.department.field_modifieddate
     - node.type.department
   module:
     - path
@@ -37,20 +35,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: number
-    region: content
-  field_deptname:
-    weight: 123
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_modifieddate:
-    weight: 124
-    settings: {  }
-    third_party_settings: {  }
-    type: datetime_timestamp
     region: content
   path:
     type: path
