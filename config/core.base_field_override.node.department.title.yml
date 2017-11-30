@@ -9,7 +9,7 @@ field_name: title
 entity_type: node
 bundle: department
 label: 'Department Name'
-description: ''
+description: 'The full name of department.'
 required: true
 translatable: true
 default_value: {  }
