@@ -1,11 +1,11 @@
 uuid: 6eaadc3a-9e7c-4c57-b6d5-62ce2b5422da
-name: 'Configuration test 123!'
+name: 'Configuration test with new front page!'
 mail: bthanomsing@northcrossgroup.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
