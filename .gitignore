@@ -29,10 +29,3 @@ sites/all/libraries/README.txt
 sites/all/modules/README.txt
 sites/all/themes/README.txt
 
-#Ignore all drupal folders/files
-docroot/drush/
-
-#Ignore Migration Modules: Migrate Source CSV, Migrate Plus, Migrate Tools
-docroot/modules/Migration/
-
-
