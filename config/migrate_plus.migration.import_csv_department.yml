@@ -1,0 +1,37 @@
+uuid: fdadee15-00f0-4c34-a3a4-ebed9dfe46ed
+langcode: en
+status: true
+dependencies: {  }
+id: import_csv_department
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: null
+label: 'Import csv department'
+source:
+  constants:
+    uri_file: 'public://'
+  plugin: csv
+  path: data/departments.csv
+  delimiter: ','
+  enclosure: '"'
+  header_row_count: 1
+  keys:
+    - id
+  column_names:
+    -
+      id: 'Unique Id'
+    -
+      title: Title
+    -
+      body: 'Post body'
+process:
+  title: title
+  field_deptid: id
+  type:
+    plugin: default_value
+    default_value: department
+destination:
+  plugin: 'entity:node'
+migration_dependencies: null
