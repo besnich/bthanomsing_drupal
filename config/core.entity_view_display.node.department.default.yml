@@ -1,0 +1,36 @@
+uuid: 00a5feba-2439-4a7c-8c3f-6197021b49f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.department.body
+    - field.field.node.department.field_deptid
+    - node.type.department
+  module:
+    - text
+    - user
+id: node.department.default
+targetEntityType: node
+bundle: department
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_deptid:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

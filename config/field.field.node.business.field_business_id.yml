@@ -1,0 +1,23 @@
+uuid: 3fb6aeb7-1160-45d5-aa09-76120a33001f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_business_id
+    - node.type.business
+id: node.business.field_business_id
+field_name: field_business_id
+entity_type: node
+bundle: business
+label: 'Business ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
