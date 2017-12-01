@@ -1,0 +1,19 @@
+uuid: d29c37e8-fced-423c-91a1-f688024490fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address
+    - node.type.business
+id: node.business.field_address
+field_name: field_address
+entity_type: node
+bundle: business
+label: Address
+description: 'Physical address including number, street name, city name, state and zip code.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

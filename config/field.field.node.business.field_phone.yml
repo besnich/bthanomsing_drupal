@@ -1,0 +1,19 @@
+uuid: 0259205b-2b97-4110-9f18-2634b3d38071
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_phone
+    - node.type.business
+id: node.business.field_phone
+field_name: field_phone
+entity_type: node
+bundle: business
+label: Phone
+description: 'This is phone number of this business. It''''s including Area code, three digits prefix and last four digits line number. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

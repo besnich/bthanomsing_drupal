@@ -1,0 +1,20 @@
+uuid: e0308f44-d440-43d7-bcb7-5498b1f8f72c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_business_id
+field_name: field_business_id
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

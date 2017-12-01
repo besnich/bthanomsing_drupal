@@ -1,0 +1,23 @@
+uuid: 4303f0b6-df89-463a-b5d2-d1dcb79d6465
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_website_url
+    - node.type.business
+  module:
+    - link
+id: node.business.field_website_url
+field_name: field_website_url
+entity_type: node
+bundle: business
+label: 'Website URL'
+description: 'Business address on the Internet.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link
